@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adobe Psychic Desktop</title>
+  
+<style type="text/css" title="text/css">
+* {
+  margin: 0;
+  padding: 0; }
+#qzad {
+  background-color: rgb(0,0,0);
+  overflow: hidden;
+  max-width: 1100px;
+  min-width: 720px;
+  width: 100%;
+  height: 480px; }
+.play-button {
+  width:100%;
+  height:100%;
+  cursor: pointer; }
+#shadowboxer-wrapper {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  background:#000; }
+#shadowboxer-gloss {
+  position: absolute;
+  width:1100px;
+  height:480px;
+  background:rgba(0, 0, 0, 0.60); }
+#shadowboxer-video-wrapper {
+  width:100%;
+  height:480px;
+  position: relative;
+  top:0;
+  left:0;
+  margin:auto;
+  z-index: 2;
+  overflow:hidden;
+  background:#000; }
+#shadowboxer-x  {
+  background: url('http://ads.qz.com/sponsors/adobe/psychic/desktop/images/close.png') no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 13px;
+  height: 15px;
+  z-index: 3; 
+  cursor: pointer; }
+#watch_now {
+  z-index:4;
+  background-image:url('http://ads.qz.com/sponsors/adobe/psychic/desktop/images/watch_now_psychic.png');
+  display: none;
+  position: absolute;
+  top:362px;
+  left:54px;
+  width:602px;
+  height:72px; }
+#off {
+  background: transparent url('http://ads.qz.com/sponsors/adobe/psychic/desktop/images/watch_now_psychic.png') no-repeat;
+  display: block;
+  position: absolute;
+  top: 362px;
+  left: 54px;
+  width: 602px;
+  height: 72px;
+  z-index: 4; }
+#learn_more {
+  display: none;
+  z-index:1;
+  background-image:url('http://ads.qz.com/sponsors/adobe/psychic/desktop/images/learn_more_psychic.jpg');
+  position: absolute;
+  margin: 0 0 0 -550px;
+  top:0;
+  left:50%;
+  width:1100px;
+  height:480px; }
+#learn-more-button {
+  display: block;
+  margin: 0 0 0 -100px;
+  position: absolute;
+  top: 315px;
+  left: 50%;
+  width: 200px;
+  height: 50px; }
+#bgimage {
+  width:1100px;
+  height:480px;
+  z-index:1;
+  background-image:url('http://ads.qz.com/sponsors/adobe/psychic/desktop/images/bg_desktop_psychic.jpg'); }
+
+</style>
+  
+</head>
+<body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script
+  id="ix-namer"
+  data-ix-name="Adobe Psychic Desktop: Prod"
+  type="text/javascript"
+  src="http://ads.qz.com/js/interact/qzad-0.8.js"
+></script>
+
+<script type="text/javascript">
+
+$(document).ready( function() {
+
+QZAD.init({
+  App: {
+    init: function() {
+      this.initialized = true;
+      this.shadowboxer = new QZAD.Shadowboxer({
+        'button': $('.play-button') // or whatever your play button is called.
+      });
+    },
+    on: function() {
+      if ( ! this.initialized ) {
+        this.init();
+      }
+      // reset
+      $('#bgimage').show();
+      $('#off').hide();
+      $('#watch_now').show();
+      this.bindAway();
+      this.shadowboxer.init();
+    },
+    off: function() {
+      $('#learn_more').hide();
+      $('#bgimage').show();
+      $('#off').show();
+      this.unbindAway();
+      this.shadowboxer.deinit();
+    },
+    bindAway: function() {
+      $(QZAD.el).on( 'shadowboxerlaunch', function() {
+        $('#bgimage').hide();
+        $('#watch_now').hide();
+      });
+      $(QZAD.el).on( 'shadowboxerdestroy', function() {
+        $('#learn_more').css( 'display', 'block' );
+      });
+    },
+    unbindAway: function() {
+      $(QZAD.el).off( 'shadowboxerlaunch' );
+      $(QZAD.el).off( 'shadowboxerdestroy' );
+    }
+  }
+});
+
+} );
+
+</script>
+
+<script src="http://ads.qz.com/sponsors/adobe/psychic/desktop/js/shadowboxer.js" type="text/javascript"></script>
+
+<script id="shadowboxer-template" type="text/template">
+  <div id="shadowboxer-wrapper">
+  <div id="shadowboxer-x"></div>
+    <div id="shadowboxer-gloss"></div>
+    <div id="shadowboxer-video-wrapper">
+    </div>
+  </div>
+</script>
+
+<script id="video-template" type="text/template">
+<object id="my-experience" class="BrightcoveExperience">
+  <param name="bgcolor" value="#000000" />
+  <param name="width" value="100%" />
+  <param name="height" value="480px" />
+  <param name="playerID" value="2032510595001" />
+  <param name="playerKey" value="AQ~~,AAABnwxttEE~,HpQpfOmVc2vzLGVHXl_ZEA8K5GgPTxuc" />
+  <param name="isVid" value="true" />
+  <param name="isUI" value="true" />
+  <param name="includeAPI" value="true" />
+  <param name="dynamicStreaming" value="true" />
+  <param name="@videoPlayer" value="2434363410001" />
+  <param name="templateLoadHandler" value="QZAD.App.shadowboxer.BCLS.onTemplateLoad" />
+</object>
+</script>
+
+<div id="qzad" class="ad">
+
+  <div id="bgimage"></div>
+  <a id="off"
+    href="http://www.adobe.com/solutions/digital-marketing.html?tb=ov"
+    target="_blank"
+  ></a>
+  <div id="watch_now" 
+    class="on ixtrack play-button"
+    data-ix-category="media"
+    data-ix-label="play video"
+  ></div>
+  <div id="poster-wrapper">
+    <div id="poster"></div>
+  </div>
+  <div id="learn_more" 
+    class="on ixtrack learn-more"
+    data-ix-category="external"
+    data-ix-label="learn more: external page"
+  >
+    <a id="learn-more-button"
+      href="http://www.adobe.com/solutions/digital-marketing.html?tb=ov"
+      target="_blank"
+    ></a>
+  </div>
+
+</div>
+
+</body>
+</html>
