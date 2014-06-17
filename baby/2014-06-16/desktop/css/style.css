@@ -4,7 +4,7 @@
 
 #bg { background: transparent url("../images/bg.jpg") no-repeat; position: absolute; top: 0; left: 0; width: 1100px; height: 480px; }
 
-#logo { background: transparent url("../images/logo.png") no-repeat; position: absolute; top: 0; left: 53px; width: 56px; height: 92px; }
+#logo { background: transparent url("../images/logo.png") no-repeat; position: absolute; top: 0; left: 53px; width: 55px; height: 90px; }
 
 #tagline { background: transparent url("../images/tagline.png") no-repeat; position: absolute; top: 36px; right: 56px; width: 180px; height: 30px; }
 
@@ -20,7 +20,7 @@
 
 #final-bg { position: absolute; top: 0; right: 0; width: 1100px; height: 480px; }
 
-#final-logo { background: transparent url("../images/logo.png") no-repeat; position: absolute; top: 0; right: 53px; width: 56px; height: 92px; }
+#final-logo { background: transparent url("../images/logo.png") no-repeat; position: absolute; top: 0; right: 53px; width: 55px; height: 90px; }
 
 #final-tagline { background: transparent url("../images/final-tagline.png") no-repeat; position: absolute; top: 37px; left: 55px; width: 241px; height: 40px; }
 

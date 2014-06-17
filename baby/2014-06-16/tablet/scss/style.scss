@@ -14,6 +14,7 @@
 
 #bg {
   background: transparent url('../images/bg.jpg') no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -23,39 +24,43 @@
 
 #tagline {
   background: transparent url('../images/tagline.png') no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   top: -8px;
   left: 158px;
-  width: 316px;
+  width: 317px;
   height: 131px;
 }
 
 #logo {
   background: transparent url('../images/logo.png') no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   top: 0;
   left: 31px;
-  width: 56px;
-  height: 92px;
+  width: 50px;
+  height: 81px;
 }
 
 #copy {
   background: transparent url('../images/copy.png') no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   top: 376px;
   left: 30px;
-  width: 421px;
-  height: 96px;
+  width: 424px;
+  height: 95px;
 }
 
 #watch-now-button {
   background: transparent url('../images/watch-now-button.png') no-repeat;
+  background-size: 100% 100%;
   cursor: pointer;
   position: absolute;
   top: 493px;
   left: 31px;
-  width: 110px;
-  height: 27px;
+  width: 111px;
+  height: 28px;
 }
 
 #video-wrapper {
@@ -74,6 +79,7 @@
 
 #x {
   background: transparent url('../images/x.png') no-repeat;
+  background-size: 100% 100%;
   cursor: pointer;
   display: none;
   position: absolute;
@@ -94,6 +100,7 @@
 
 #final-bg {
   background: transparent url('../images/final-bg.jpg') no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -103,25 +110,28 @@
 
 #final-logo {
   background: transparent url('../images/logo.png') no-repeat;
+  background-size: 100% 100%;
   background-size: auto 100%;
   position: absolute;
   top: 0;
   left: 403px;
-  width: 56px;
-  height: 76px;
+  width: 50px;
+  height: 81px;
 }
 
 #final-tagline {
   background: transparent url('../images/final-tagline.png') no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   top: 29px;
   left: 32px;
-  width: 241px;
+  width: 238px;
   height: 40px;
 }
 
 #final-button {
   background: transparent url('../images/final-button.png') no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   top: 419px;
   left: 32px;
@@ -139,9 +149,10 @@
 
 #final-copy {
   background: transparent url('../images/final-copy.png') no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   top: 187px;
   left: 30px;
-  width: 386px;
-  height: 176px;
+  width: 381px;
+  height: 175px;
 }
