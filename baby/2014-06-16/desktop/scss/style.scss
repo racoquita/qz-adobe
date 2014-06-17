@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#qzad {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 1100px;
+	min-width: 720px;
+	width: 100%;
+	height: 480px;
+}
+
+#bg {
+	background: transparent url('../images/bg.jpg') no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1100px;
+	height: 480px;
+}
+
+#logo {
+	background: transparent url('../images/logo.png') no-repeat;
+	position: absolute;
+	top: 0;
+	left: 53px;
+	width: 56px;
+	height: 92px;
+}
+
+#tagline {
+	background: transparent url('../images/tagline.png') no-repeat;
+	position: absolute;
+	top: 36px;
+	right: 56px;
+	width: 180px;
+	height: 30px;
+}
+
+#copy {
+	background: transparent url('../images/copy.png') no-repeat;
+	position: absolute;
+	top: 314px;
+	left: 53px;
+	width: 579px;
+	height: 131px;
+}
+
+#watch-now-button {
+	background: transparent url('../images/watch-now-button.png') no-repeat;
+	cursor: pointer;
+	position: absolute;
+	top: 413px;
+	right: 54px;
+	width: 135px;
+	height: 33px;
+}
+
+#video-wrapper {
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	top: -480px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#x {
+	background: transparent url('../images/x.png') no-repeat;
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 41px;
+	height: 41px;
+}
+
+#final-frame {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 480px;
+}
+
+#final-bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1100px;
+	height: 480px;
+}
+
+#final-logo {
+	background: transparent url('../images/logo.png') no-repeat;
+	position: absolute;
+	top: 0;
+	right: 53px;
+	width: 56px;
+	height: 92px;
+}
+
+#final-tagline {
+	background: transparent url('../images/final-tagline.png') no-repeat;
+	position: absolute;
+	top: 37px;
+	left: 55px;
+	width: 241px;
+	height: 40px;
+}
+
+#final-copy {
+	background: transparent url('../images/final-copy.png') no-repeat;
+	position: absolute;
+	top: 179px;
+	left: 52px;
+	width: 666px;
+	height: 168px;
+}
+
+#final-button {
+	background: transparent url('../images/final-button.png') no-repeat;
+	position: absolute;
+	top: 397px;
+	left: 54px;
+	width: 161px;
+	height: 39px;
+	a {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media all and (max-width: 800px) {
+	#final-copy {
+		background: transparent url('../images/final-copy-min.png') no-repeat;
+		top: 196px;
+		left: 52px;
+		width: 544px;
+		height: 138px;
+	}
+}

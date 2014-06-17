@@ -1,0 +1,34 @@
+* { margin: 0; padding: 0; }
+
+#qzad { overflow: hidden; position: absolute; top: 0; left: 0; width: 320px; height: 150px; }
+
+#tagline { background: transparent url("../images/tagline.png") no-repeat; background-size: 100% 100%; position: absolute; top: 10px; left: 165px; width: 152px; height: 25px; }
+
+#logo { background: transparent url("../images/logo.jpg") no-repeat; background-size: 100% 100%; position: absolute; top: -5px; left: 10px; width: 30px; height: 50px; }
+
+#copy { background: transparent url("../images/copy.png") no-repeat; background-size: 100% 100%; position: absolute; bottom: 0; left: 0; width: 212px; height: 59px; }
+
+#watch-now-button { background: transparent url("../images/watch-now-button.png") no-repeat; background-size: 100% 100%; cursor: pointer; position: absolute; top: 115px; right: 10px; width: 90px; height: 25px; }
+
+#bg { position: absolute; top: 0; left: 0; width: 320px; height: 150px; }
+
+#shadow { position: absolute; top: 0; left: 0; width: 320px; height: 150px; background: transparent url("../images/shadow.png") no-repeat; background-size: 100% 100%; }
+
+#bg { background: transparent url("../images/bg.jpg") no-repeat; background-size: 100% 100%; }
+
+#video-wrapper { background-color: black; position: absolute; top: -150px; left: 0; width: 320px; height: 150px; }
+
+#x { background: transparent url("../images/x.png") no-repeat; background-size: 100% 100%; cursor: pointer; display: none; position: absolute; top: 0; right: 0; width: 41px; height: 41px; }
+
+#final-frame { background-color: black; color: white; display: none; position: absolute; top: 0; left: 0; width: 320px; height: 150px; }
+
+#final-bg { background: transparent url("../images/final-bg.jpg") no-repeat; background-size: 100% 100%; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+#final-logo { background: transparent url("../images/final-logo.png") no-repeat; background-size: 100% 100%; position: absolute; top: 0; left: 270px; width: 24px; height: 38px; }
+
+#final-tagline { background: transparent url("../images/final-tagline.png") no-repeat; background-size: 100% 100%; position: absolute; top: 19px; left: 17px; width: 154px; height: 25px; }
+
+#final-button { background: transparent url("../images/final-button.png") no-repeat; background-size: 100% 100%; position: absolute; top: 114px; right: 10px; width: 90px; height: 25px; }
+#final-button a { display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+#final-copy { background: transparent url("../images/final-copy.png") no-repeat; background-size: 100% 100%; position: absolute; bottom: 20px; left: 15px; width: 212px; height: 59px; }
