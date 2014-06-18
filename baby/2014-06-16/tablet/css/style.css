@@ -21,7 +21,7 @@
 
 #final-bg { background: transparent url("../images/final-bg.jpg") no-repeat; background-size: 100% 100%; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-#final-logo { background: transparent url("../images/logo.png") no-repeat; background-size: 100% 100%; background-size: auto 100%; position: absolute; top: 0; left: 403px; width: 50px; height: 81px; }
+#final-logo { background: transparent url("../images/logo.png") no-repeat; background-size: 100% 100%; background-size: auto 100%; position: absolute; top: 0; right: 30px; width: 50px; height: 81px; }
 
 #final-tagline { background: transparent url("../images/final-tagline.png") no-repeat; background-size: 100% 100%; position: absolute; top: 29px; left: 32px; width: 238px; height: 40px; }
 

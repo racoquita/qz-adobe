@@ -1,5 +1,6 @@
-var AdApp = {
-	playerString: '\
+var App = function(){
+	var that = this;
+	var playerString = '\
 	<object id="myExperience2719597149001" class="BrightcoveExperience">\
 	<param name="bgcolor" value="#000000" />\
 	<param name="width" value="267" />\
@@ -11,57 +12,52 @@ var AdApp = {
 	<param name="dynamicStreaming" value="true" />\
 	<param name="includeAPI" value="true" />\
 	<param name="htmlFallback" value="true" />\
-	<param name="templateLoadHandler" value="AdApp.videoTemplateLoadedHandler" />\
-	<param name="templateReadyHandler" value="AdApp.videoTemplateReadyHandler" />\
+	<param name="templateLoadHandler" value="videoTemplateLoadedHandler" />\
+	<param name="templateReadyHandler" value="videoTemplateReadyHandler" />\
 	<param name="wmode" value="transparent" />\
 	<param name="@videoPlayer" value="2719597149001" />\
-	</object>\
-	',
-	init: function() {
-		this.hasBeenInit = true;
-		$('#watch-now-button').on( 'click', this.watchNowButtonHandler );
-		$('#x').on( 'click', this.xHandler );
+	</object>';
+
+	this.init = function() {
+		that.hasBeenInit = true;
+		$('#watch-now-button').on( 'click', that.watchNowButtonHandler );
+		$('#x').on( 'click', that.xHandler );
 	},
-	on: function() {
-		if ( !this.hasBeenInit ) {
-			this.init();
+	this.on = function() {
+		if ( !that.hasBeenInit ) {
+			that.init();
 		}
 	},
-	watchNowButtonHandler: function() {
-		var that = AdApp;
+	this.watchNowButtonHandler = function() {
 		$('#video-wrapper').css( 'top', 0 );
-		$('#video-wrapper').prepend( that.playerString );
+		$('#video-wrapper').prepend( playerString );
 		brightcove.createExperiences();
 		$('#final-bg').attr( 'src', 'images/final-bg.jpg' );
 	},
-	xHandler: function() {
-		var that = AdApp;
+	this.xHandler = function() {
 		$('#video-wrapper').css( 'top', -150 );
-		that.modVP.pause();
-		that.videoCompleteHandler();
+		modVP.pause();
+		videoCompleteHandler();
 	},
-	videoCompleteHandler: function() {
+	window.videoCompleteHandler = function() {
 		$('#final-frame').show();
 	},
-	videoTemplateLoadedHandler: function( experienceId ) {
-		var that = AdApp;
-		that.player = brightcove.api.getExperience( experienceId );
-		that.modVP = that.player.getModule( brightcove.api.modules.APIModules.VIDEO_PLAYER );
+	window.videoTemplateLoadedHandler = function( experienceId ) {
+		player = brightcove.api.getExperience( experienceId );
+		modVP = player.getModule( brightcove.api.modules.APIModules.VIDEO_PLAYER );
 		$('#watch-now-button').fadeIn( 300 );
 	},
-	videoTemplateLoadedHandler: function( experienceId ) {
-		var that = AdApp;
-		that.player = brightcove.api.getExperience( experienceId );
-		that.modVP = that.player.getModule( brightcove.api.modules.APIModules.VIDEO_PLAYER );
+	window.videoTemplateLoadedHandler = function( experienceId ) {
+		player = brightcove.api.getExperience( experienceId );
+		modVP = player.getModule( brightcove.api.modules.APIModules.VIDEO_PLAYER );
 	},
-	videoTemplateReadyHandler: function( e ) {
-		var that = AdApp;
-		that.modVP.addEventListener( brightcove.api.events.MediaEvent.COMPLETE, that.videoCompleteHandler );
+	videoTemplateReadyHandler = function( e ) {
+		modVP.addEventListener( brightcove.api.events.MediaEvent.COMPLETE, videoCompleteHandler );
 		$('#x').show();
 	},
-	off: function() {
+	this.off = function() {
 		$('#video-wrapper').css( 'top', -150 );
-		this.modVP.pause();
+		modVP.pause();
 		$('#final-frame').hide();
 	}
-}
+};

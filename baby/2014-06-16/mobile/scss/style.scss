@@ -26,7 +26,7 @@
 	background: transparent url('../images/logo.jpg') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
-	top: -5px;
+	top: 0;
 	left: 10px;
 	width: 30px;
 	height: 50px;
@@ -59,16 +59,6 @@
 	left: 0;
 	width: 320px;
 	height: 150px;
-}
-
-#shadow {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 320px;
-	height: 150px;
-	background: transparent url('../images/shadow.png') no-repeat;
-	background-size: 100% 100%;
 }
 
 #bg {
@@ -142,7 +132,7 @@
 	background: transparent url('../images/final-button.png') no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
-	top: 114px;
+	bottom: 20px;
 	right: 10px;
 	width: 90px;
 	height: 25px;
