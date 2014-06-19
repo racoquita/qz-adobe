@@ -26,7 +26,7 @@
 
 #final-tagline { background: transparent url("../images/final-tagline.png") no-repeat; background-size: 100% 100%; position: absolute; top: 19px; left: 17px; width: 154px; height: 25px; }
 
-#final-button { background: transparent url("../images/final-button.png") no-repeat; background-size: 100% 100%; position: absolute; bottom: 20px; right: 10px; width: 90px; height: 25px; }
+#final-button { background: transparent url("../images/final-button.png") no-repeat; background-size: 100% 100%; position: absolute; bottom: 19px; right: 10px; width: 90px; height: 25px; }
 #final-button a { display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 #final-copy { background: transparent url("../images/final-copy.png") no-repeat; background-size: 100% 100%; position: absolute; bottom: 20px; left: 15px; width: 212px; height: 59px; }

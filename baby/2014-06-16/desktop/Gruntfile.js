@@ -65,7 +65,7 @@ module.exports = function(grunt) {
     qzready: {
       deploy: {
         options: {
-          base: 'http://ads.quartz.cc/sponsors',
+          base: 'http://ads.qz.com/sponsors',
           client: 'adobe',
           campaign: 'baby',
           date: '2014-06-16',

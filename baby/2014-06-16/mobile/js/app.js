@@ -32,7 +32,7 @@ var App = function(){
 		$('#video-wrapper').css( 'top', 0 );
 		$('#video-wrapper').prepend( playerString );
 		brightcove.createExperiences();
-		$('#final-bg').attr( 'src', 'images/final-bg.jpg' );
+		$('#final-bg').attr( 'src', 'http://ads.qz.com/sponsors/adobe/baby/2014-06-16/mobile/images/final-bg.jpg' );
 	},
 	this.xHandler = function() {
 		$('#video-wrapper').css( 'top', -150 );
