@@ -43,7 +43,7 @@ var App = function() {
 			<param name="templateLoadHandler" value="onTemplateLoad" />\
 			<param name="templateReadyHandler" value="onTemplateReady" />\
 			<param name="wmode" value="transparent" />\
-			<param name="@videoPlayer" value="3639489388001" />\
+			<param name="@videoPlayer" value="3639489423001" />\
 			<param name="autoStart" value="true" />\
 		</object>';
 	}
