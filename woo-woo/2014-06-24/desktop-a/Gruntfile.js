@@ -66,15 +66,16 @@ module.exports = function(grunt) {
       deploy: {
         options: {
           base: 'http://ads.quartz.cc/sponsors',
-          client: 'example_client',
-          campaign: 'example_campaign',
-          date: '2014-04-15',
-          unit: 'desktop',
+          client: 'abobe',
+          campaign: 'woo-woo',
+          date: '2014-06-24',
+          unit: 'desktop-a',
           version: '1',
           internal_scripts: [
             
           ],
           external_scripts: [
+            'http://admin.brightcove.com/js/BrightcoveExperiences.js',
             'http://app.qz.com/js/vendor/jQuery-min.js',
             'http://app.qz.com/js/frameMessager/min/frameMessager.min.2.5.48.js',
             'http://app.qz.com/js/frameMessager/QZIX.js'

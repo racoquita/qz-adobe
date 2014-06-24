@@ -1,1 +1,22 @@
-/*style.css*/
+body { margin: 0; }
+
+a { display: block; }
+
+img { width: 100%; }
+
+#qzad { position: absolute; width: 320px; height: 150px; overflow: hidden; background-color: white; }
+#qzad .frame-start { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: url(../images/bg.jpg) no-repeat center center; background-size: cover; }
+#qzad .frame-start.show { display: block; }
+#qzad .frame-start .marketing { position: absolute; top: 10px; right: 9px; width: 149px; }
+#qzad .frame-start .logo { position: absolute; top: 0; left: 10px; width: 32px; }
+#qzad .frame-start .copy { position: absolute; bottom: 1px; left: 1px; width: 213px; }
+#qzad .frame-start .cta { position: absolute; right: 9px; bottom: 10px; width: 90px; }
+#qzad .frame-end { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: url(../images/bg-final.jpg) no-repeat center center; background-size: cover; }
+#qzad .frame-end.show { display: block; }
+#qzad .frame-end .marketing-final { position: absolute; top: 15px; left: 15px; width: 154px; }
+#qzad .frame-end .logo-final { position: absolute; top: 0; right: 15px; width: 32px; }
+#qzad .frame-end .copy-final { position: absolute; bottom: 15px; left: 15px; width: 212px; }
+#qzad .frame-end .cta-final { position: absolute; right: 15px; bottom: 11px; width: 90px; }
+#qzad .video-container { position: absolute; z-index: 101; top: 0; right: 0; bottom: 0; left: 0; background-color: black; display: none; }
+#qzad .video-container .video { width: 100%; height: 100%; }
+#qzad .video-container .x { color: white; position: absolute; top: 0; right: 0; font-size: 30px; width: 30px; height: 30px; cursor: pointer; }
