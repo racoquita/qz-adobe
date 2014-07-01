@@ -14,7 +14,7 @@ img { width: 100%; }
 #qzad .frame-end { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: url(../images/bg-final.jpg) no-repeat center center; background-size: 100%; }
 #qzad .frame-end.show { display: block; }
 #qzad .frame-end .copy-final { position: absolute; top: 278px; left: 30px; width: 311px; }
-#qzad .frame-end .cta-final { position: absolute; left: 30px; bottom: 77px; width: 135px; }
+#qzad .frame-end .cta-final { position: absolute; left: 30px; bottom: 77px; width: 151px; }
 #qzad .video-container { position: absolute; z-index: 101; top: 0; right: 0; bottom: 0; left: 0; background-color: black; display: none; }
 #qzad .video-container .video { position: absolute; top: 80px; right: 0; bottom: 80px; left: 0; }
 #qzad .video-container .x { color: white; position: absolute; top: 0; right: 0; font-size: 60px; width: 60px; height: 60px; text-align: center; line-height: 60px; }
