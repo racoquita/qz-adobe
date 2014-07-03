@@ -9,7 +9,7 @@ img { width: 100%; }
 #qzad .frame-start.show { display: block; }
 #qzad .frame-start .marketing { position: absolute; top: 10px; right: 9px; width: 149px; }
 #qzad .frame-start .logo { position: absolute; top: 0; left: 10px; width: 32px; }
-#qzad .frame-start .copy { position: absolute; bottom: 1px; left: 1px; width: 213px; }
+#qzad .frame-start .copy { position: absolute; bottom: 1px; left: 1px; width: 212px; }
 #qzad .frame-start .cta { position: absolute; right: 9px; bottom: 10px; width: 90px; }
 #qzad .frame-end { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: url(../images/bg-final.jpg) no-repeat center center; background-size: cover; }
 #qzad .frame-end.show { display: block; }
