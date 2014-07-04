@@ -2,6 +2,12 @@ var App = function() {
 	var that = this;
 
 	this.on = function() {
+		$('.ixtrack').on('click', function(e){
+			
+			console.log(e.target);
+			console.log(e.currentTarget);
+		});
+
 		$('.cta').on('click', function(e){
 			e.preventDefault();
 

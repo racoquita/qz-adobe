@@ -11,8 +11,8 @@ a { display: block; }
 #qzad .frame-start .cta { position: absolute; right: 29px; bottom: 29px; }
 #qzad .frame-end { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: url(../images/bg-final.jpg) no-repeat center center; background-size: cover; }
 #qzad .frame-end.show { display: block; }
-#qzad .frame-end .marketing-final { position: absolute; top: 29px; left: 29px; }
-#qzad .frame-end .logo-final { position: absolute; top: 0; right: 29px; }
+#qzad .frame-end .marketing { position: absolute; top: 29px; left: 29px; }
+#qzad .frame-end .logo { position: absolute; top: 0; right: 29px; }
 #qzad .frame-end .copy-final { position: absolute; top: 233px; left: 29px; }
 #qzad .frame-end .cta-final { position: absolute; left: 29px; bottom: 29px; }
 #qzad .video-container { position: absolute; z-index: 101; top: 0; right: 0; bottom: 0; left: 0; background-color: black; display: none; }

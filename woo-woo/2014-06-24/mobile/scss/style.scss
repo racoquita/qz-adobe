@@ -6,6 +6,7 @@ a {
 }
 img {
 	width: 100%;
+	display: inline;
 }
 #qzad {
 	position: absolute;
@@ -65,28 +66,28 @@ img {
 		&.show {
 			display: block;
 		}
-		.marketing-final {
+		.marketing {
 			position: absolute;
-			top: 15px;
-			right: 15px;
-			width: 154px;
+			top: 10px;
+			right: 9px;
+			width: 149px;
 		}
-		.logo-final {
+		.logo {
 			position: absolute;
 			top: 0;
-			left: 15px;
+			left: 10px;
 			width: 32px;
 		}
 		.copy-final {
 			position: absolute;
-			bottom: 15px;
-			left: 15px;
+			bottom: 11px;
+			left: 11px;
 			width: 184px;
 		}
 		.cta-final {
 			position: absolute;
-			right: 15px;
-			bottom: 14px;
+			right: 9px;
+			bottom: 10px;
 			width: 90px;
 		}
 	}
