@@ -13,7 +13,7 @@ body { margin: 0; }
 #qzad .frame-start .cta img { width: 100%; }
 #qzad .frame-end { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: url(../images/bg-final.jpg) no-repeat center center; background-size: cover; }
 #qzad .frame-end.show { display: block; }
-#qzad .frame-end .copy-final { position: absolute; bottom: 95px; left: 29px; width: 36.875%; }
+#qzad .frame-end .copy-final { position: absolute; bottom: 95px; left: 29px; width: 34.78125%; }
 #qzad .frame-end .copy-final img { width: 100%; }
 #qzad .frame-end .cta-final { position: absolute; left: 29px; bottom: 29px; width: 9.1875%; }
 #qzad .frame-end .cta-final img { width: 100%; }
