@@ -12,7 +12,7 @@ body {
 	.logo {
 		position: absolute;
 		top: 0px;
-		right: 30px;
+		right: 5%;
 		width: 7.08333%;//42.5px
 		img{
 			width: 100%;
@@ -21,7 +21,7 @@ body {
 	.marketing {
 		position: absolute;
 		top: 30px;
-		left: 30px;
+		left: 5%;//30px;
 		width: 32.41%;//194.5px
 		img{
 			width: 100%;
@@ -44,16 +44,16 @@ body {
 		.copy {
 			position: absolute;
 			bottom: 84px;
-			left: 30px;
-			width: 396px;
+			left: 5%;
+			width: 66%;//396px;
 			img{
 				width: 100%;
 			}
 		}
 		.cta {
 			position: absolute;
-			left:30px;
-			bottom: 10px;
+			left:5%;
+			bottom: 30px;
 			width: 20.4166%; //122.5px
 			img{
 				width: 100%;
@@ -78,8 +78,8 @@ body {
 		.copy-final {
 			position: absolute;
 			bottom: 125px;
-			left: 30px;
-			width: 396px;
+			left: 5%;
+			width: 66%;//396px;
 			img{
 				width: 100%;
 			}
