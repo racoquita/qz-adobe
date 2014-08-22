@@ -7,13 +7,13 @@ body { margin: 0; }
 #qzad .logo img { width: 100%; }
 #qzad .frame-start { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: url(../images/bg.jpg) no-repeat center center; background-size: cover; }
 #qzad .frame-start.show { display: block; }
-#qzad .frame-start .copy { display: block; position: absolute; bottom: 95px; left: 29px; width: 36.875%; }
+#qzad .frame-start .copy { display: block; position: absolute; bottom: 95px; left: 29px; width: 36.875%; min-width: 421px; }
 #qzad .frame-start .copy img { width: 100%; }
 #qzad .frame-start .cta { position: absolute; left: 29px; bottom: 29px; width: 9.1875%; min-width: 147px; }
 #qzad .frame-start .cta img { width: 100%; }
 #qzad .frame-end { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: url(../images/bg-final.jpg) no-repeat center center; background-size: cover; }
 #qzad .frame-end.show { display: block; }
-#qzad .frame-end .copy-final { position: absolute; bottom: 95px; left: 29px; width: 34.78125%; }
+#qzad .frame-end .copy-final { position: absolute; bottom: 95px; left: 29px; width: 34.78125%; min-width: 421px; }
 #qzad .frame-end .copy-final img { width: 100%; }
 #qzad .frame-end .cta-final { position: absolute; left: 29px; bottom: 29px; width: 9.1875%; }
 #qzad .frame-end .cta-final img { width: 100%; }
