@@ -9,7 +9,7 @@ body { margin: 0; }
 @media only screen and (max-device-width: 420px) and (-webkit-min-device-pixel-ratio: 2) { #qzad .marketing { width: 51.25%; } }
 #qzad .frame-start { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: url(../images/bg.jpg) center center no-repeat; background-size: cover; }
 #qzad .frame-start.show { display: block; }
-#qzad .frame-start .copy { position: absolute; bottom: 84px; left: 5%; width: 66%; }
+#qzad .frame-start .copy { position: absolute; bottom: 66.5px; left: 1.6666%; width: 71.16666%; }
 @media only screen and (max-device-width: 420px) and (-webkit-min-device-pixel-ratio: 2) { #qzad .frame-start .copy { top: 237px; width: 80%; } }
 #qzad .frame-start .copy img { width: 100%; }
 @media only screen and (max-device-width: 420px) and (-webkit-min-device-pixel-ratio: 2) { #qzad .frame-start .copy img.copy-600 { display: none; } }
