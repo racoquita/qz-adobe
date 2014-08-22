@@ -17,6 +17,11 @@ body {
 		img{
 			width: 100%;
 		}
+		@media only screen and (max-device-width : 420px) and (-webkit-min-device-pixel-ratio : 2) {
+		    width: 12.8125%;//41px;
+		    //right: 9.375%;//30px;
+		}
+		
 	}
 	.marketing {
 		position: absolute;
@@ -25,6 +30,10 @@ body {
 		width: 32.41%;//194.5px
 		img{
 			width: 100%;
+		}
+		@media only screen and (max-device-width : 420px) and (-webkit-min-device-pixel-ratio : 2) {
+		        width: 51.25%;//164px;
+		            	
 		}
 	}
 	.frame-start {
@@ -46,8 +55,26 @@ body {
 			bottom: 84px;
 			left: 5%;
 			width: 66%;//396px;
+			@media only screen and (max-device-width : 420px) and (-webkit-min-device-pixel-ratio : 2) {
+		        top:237px;
+		        width: 80%;//256px;
+		    }
 			img{
 				width: 100%;
+				
+		        &.copy-600{
+		        	@media only screen and (max-device-width : 420px) and (-webkit-min-device-pixel-ratio : 2) {
+		            	display: none
+		        	}
+		        }
+		        &.copy-320{
+		        	display: none;
+		        	@media only screen and (max-device-width : 420px) and (-webkit-min-device-pixel-ratio : 2) {
+		            	display: block;
+
+		            	
+		        	}
+		        }
 			}
 		}
 		.cta {
@@ -58,6 +85,10 @@ body {
 			img{
 				width: 100%;
 			}
+			@media only screen and (max-device-width : 420px) and (-webkit-min-device-pixel-ratio : 2) {
+		        width: 37.8125%;//121px;
+		            	
+		    }
 
 		}
 	}
@@ -77,21 +108,41 @@ body {
 		
 		.copy-final {
 			position: absolute;
-			bottom: 125px;
+			bottom: 133px;
 			left: 5%;
 			width: 66%;//396px;
 			img{
 				width: 100%;
+				&.copy-600{
+		        	@media only screen and (max-device-width : 420px) and (-webkit-min-device-pixel-ratio : 2) {
+		            	display: none
+		        	}
+		        }
+		        &.copy-320{
+		        	display: none;
+		        	@media only screen and (max-device-width : 420px) and (-webkit-min-device-pixel-ratio : 2) {
+		            	display: block;
+		            	
+		        	}
+		        }
 			}
+			@media only screen and (max-device-width : 420px) and (-webkit-min-device-pixel-ratio : 2) {
+		
+		       	width: 60.625%;//194px;
+		    }
+
 		}
 		.cta-final {
 			position: absolute;
 			left:5%;
-			bottom: 73px;
+			bottom: 77px;
 			width: 20.4166%; //122.5px
 			img{
 				width: 100%;
 			}
+			@media only screen and (max-device-width : 420px) and (-webkit-min-device-pixel-ratio : 2) {
+		        width: 37.8125%;//121px;      	
+		    }
 		}
 	}
 	.video-container {
