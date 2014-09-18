@@ -96,6 +96,7 @@ body {
 			left: 29px;
 			bottom: 29px;
 			width:  9.1875%;//147.5px
+			min-width: 147px;
 			img{
 				width: 100%;
 			}
@@ -117,12 +118,12 @@ body {
 			background-image: url('../images/video-cta.png');
 			background-size: 100% 100%;
 			cursor: pointer;
-			margin-left: -73.5px;
+			//margin-left: -73.5px;
 			position: absolute;
 			top: 415px;
 			right: auto;
 			bottom: 30px;
-			left: 69.375%;//50%;
+			left: 80%;//50%;
 			width: 147px;
 			height: 36px;
 			z-index: 1000;
