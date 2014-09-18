@@ -22,7 +22,7 @@ body {
 	.logo {
 		position: absolute;
 		top: 0;
-		right: 29px;
+		right: 57px;
 		width: 3.9375%;//63px
 		min-width: 63px;
 		img{
@@ -111,7 +111,7 @@ body {
 		background-color: black;
 		display: none;
 		.logo {
-			right: 40px;
+			right: 57px;
 		}
 		.video-cta {
 			background-image: url('../images/video-cta.png');
@@ -119,10 +119,10 @@ body {
 			cursor: pointer;
 			margin-left: -73.5px;
 			position: absolute;
-			top: auto;
+			top: 415px;
 			right: auto;
 			bottom: 30px;
-			left: 50%;
+			left: 69.375%;//50%;
 			width: 147px;
 			height: 36px;
 			z-index: 1000;
